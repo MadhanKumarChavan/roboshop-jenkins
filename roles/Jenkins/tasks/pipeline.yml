@@ -14,3 +14,4 @@
   loops:
     - frontend
     - cart
+    - user
