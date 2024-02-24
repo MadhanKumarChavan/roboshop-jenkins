@@ -2,5 +2,5 @@
   hosts: localhost
   become: yes
   connection: local
-  roles:
-    jenkins
+#  roles:
+ #   jenkins
