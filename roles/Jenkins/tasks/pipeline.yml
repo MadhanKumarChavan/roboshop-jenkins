@@ -14,7 +14,7 @@
 
 - name: create config file
   ansible.builtin.templates:
-    src: "{{TEMPLATE}}"
+    src: job.xml
     dest: /tmp/job.xml
 
 
