@@ -3,5 +3,3 @@
   loops:
     - {name: "frontend", dir: "CIPiplines"}
     - {name: "cart", dir: "CIPiplines"}
-  vars:
-    TEMPLATE: pipeline.xml
