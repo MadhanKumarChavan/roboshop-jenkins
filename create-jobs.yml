@@ -1,5 +1,5 @@
 - name: Create Jenkins Jobs
-  hosts: localhost
+  hosts: 3.237.80.60:8080
   connection: local
   roles:
     - Jenkins
