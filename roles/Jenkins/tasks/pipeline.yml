@@ -1,5 +1,5 @@
 - name: create config file
-  ansible.builtin.templates:
+  ansible.builtin.template:
     src: folder.xml
     dest: /tmp/job.xml
 
@@ -13,7 +13,7 @@
     password: "{{jenkins_password}}"
 
 - name: create config file
-  ansible.builtin.templates:
+  ansible.builtin.template:
     src: job.xml
     dest: /tmp/job.xml
 
