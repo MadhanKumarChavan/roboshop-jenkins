@@ -2,5 +2,5 @@
   hosts: 3.237.80.60:8080
   connection: local
   become: yes
- # roles:
-    - Jenkins
+#  roles:
+#    - Jenkins
