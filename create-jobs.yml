@@ -2,13 +2,13 @@
   hosts: localhost
   connection: local
   become: yes
-  tasks:
-    - ansible.builtin.import_role:
-        name: roles
+#  tasks:
+#    - ansible.builtin.import_role:
+#        name: roles
 
 
 
 
-#  roles:
-#    - Jenkins
+  roles:
+    - Jenkins
 
