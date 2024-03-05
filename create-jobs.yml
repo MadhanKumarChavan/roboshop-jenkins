@@ -1,14 +1,10 @@
 - name: Create Jenkins Jobs
-  hosts: localhost
+  host: http://172.31.3.12:8080
   connection: local
   become: yes
 #  tasks:
 #    - ansible.builtin.import_role:
 #        name: roles
-
-
-
-
   roles:
     - Jenkins
 
