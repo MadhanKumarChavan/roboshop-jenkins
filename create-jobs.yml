@@ -1,5 +1,5 @@
 - name: Create Jenkins Jobs
-  host: http://172.31.3.12:8080
+  host: localhost
   connection: local
   become: yes
 #  tasks:
